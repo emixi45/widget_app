@@ -12,19 +12,18 @@ class MenuItem {
     required this.link, 
     required this.icon
     });
-
-    static const appMenuItems = <MenuItem>[
+}
+    const appMenuItems = <MenuItem>[
 
       MenuItem(
         title: 'Botonoes',
         subtitle: 'Varios botones en flutter', 
-        link: '/buttons', 
+        link: '/Buttons', 
         icon: Icons.smart_button_outlined),
       
       MenuItem(
         title: 'Tarjetas',
         subtitle: 'Contenedor estilizado', 
-        link: '/card', 
-        icon: Icons.calendar_today)
+        link: '/Card', 
+        icon: Icons.calendar_today),
     ];
-}
